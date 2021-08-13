@@ -14,5 +14,6 @@
 
 <!--    暴露服务，ref 指向需要的对象-->
     <dubbo:service interface="com.underdog.gmail.service.UserService" ref="userServiceImpl"></dubbo:service>
+
     <bean id="userServiceImpl" class="com.underdog.gmail.service.impl.UserServiceImpl"></bean>
 </beans>

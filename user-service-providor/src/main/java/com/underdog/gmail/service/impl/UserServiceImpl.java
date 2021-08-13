@@ -16,8 +16,6 @@ public class UserServiceImpl implements UserService {
 		return Arrays.asList(address1,address2);
 	}
 
-	public void getUserAddressList() {
 
-	}
 }
 

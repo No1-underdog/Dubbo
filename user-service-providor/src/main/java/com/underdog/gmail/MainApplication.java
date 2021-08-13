@@ -10,16 +10,12 @@ import java.io.IOException;
  */
 public class MainApplication {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext ioc = new ClassPathXmlApplicationContext("providor.xml");
+
         ioc.start();
 
-        try {
-            System.in.read();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        System.in.read();
 
     }
 }

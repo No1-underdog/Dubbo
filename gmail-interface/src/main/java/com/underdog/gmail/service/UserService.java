@@ -21,5 +21,5 @@ public interface UserService {
     public List<UserAddress> getUserAddressList(String userId);
 
 
-    void getUserAddressList();
+
 }
